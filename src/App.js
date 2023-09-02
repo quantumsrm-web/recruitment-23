@@ -1,12 +1,11 @@
-
-import './App.css';
-
+import "./App.css"
+import Domain1 from "./components/Domain1"
 function App() {
   return (
     <div className="App">
-      <p className='text-red-700'>quantum</p>
+      <Domain1 />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

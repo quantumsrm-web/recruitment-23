@@ -2,10 +2,13 @@ import React from "react"
 import Quantum from "../assets/Quantum.svg"
 import AIML from "../assets/AI_ML.svg"
 import webdev from "../assets/Web Dev.svg"
+import corporate from "../assets/Corporate.svg"
+import creatives from "../assets/Creatives.svg"
+
 function Domain1() {
   return (
     <div className="bg-black text-white">
-      <div className="w-full h-auto flex items-center justify-center text-5xl  pb-20">
+      <div className="w-full h-auto flex items-center justify-center text-5xl  pb-20 bold">
         DOMAINS
       </div>
       {/* core quantum */}
@@ -58,6 +61,39 @@ function Domain1() {
           </p>
         </div>
       </div>
+
+      <div className=" text-center sm:text-center md:text-start flex flex-col sm:flex-col md:flex-row-reverse px-20 sm:px-20 md:px-32  gap-10 sm:gap-10 md:gap-52 justify-between items-center pb-20">
+        <img
+          src={corporate}
+          alt="corporate"
+          className="h-auto sm:h-auto md:h-[30rem]"
+        />
+        <div>
+          <div className="bold text-5xl pb-10">Corporate</div>
+          <p>
+            Lorem ispum dolor sit amet, consecuter dispiscing elit, sed do
+            eiusmod tempor indicutant ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud. Lorem ispum dolor sit amet,
+            consecuter adispiscing elit, sed do eiusmod tempor indicutant ut
+            labore et dolore
+          </p>
+        </div>
+      </div>
+
+      <div className=" text-center sm:text-center md:text-start flex flex-col sm:flex-col md:flex-row px-20 sm:px-20 md:px-32  gap-10 sm:gap-10 md:gap-52 justify-between items-center">
+        <img src={creatives} alt="creatives" className="w-[30rem]" />
+        <div>
+          <div className="bold text-5xl pb-10">Editorial/Creatives</div>
+          <p>
+            Lorem ispum dolor sit amet, consecuter dispiscing elit, sed do
+            eiusmod tempor indicutant ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud. Lorem ispum dolor sit amet,
+            consecuter adispiscing elit, sed do eiusmod tempor indicutant ut
+            labore et dolore{" "}
+          </p>
+        </div>
+      </div>
+
     </div>
   )
 }

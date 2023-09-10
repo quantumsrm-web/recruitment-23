@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-scroll";
-import logo from "./Assets/Logo.png";
+import React from "react"
+import { Link } from "react-scroll"
+import logo from "./Assets/Logo.png"
 
 const Footer = () => {
   return (
@@ -153,8 +153,7 @@ const Footer = () => {
           <div>
             <ul className="flex flex-col  ">
               <li className="">
-                <span className=" mr-1 font-bold">|</span>Contact
-                Us
+                <span className=" mr-1 font-bold">|</span>Contact Us
               </li>
               <li className="my-2 ml-2 hover:cursor-pointer hover:scale-105 duration-150">
                 <a href="mailto:srmqcc@gmail.com">srmqcc@gmail.com</a>
@@ -323,7 +322,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

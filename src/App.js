@@ -5,7 +5,7 @@ import Domain1 from "./components/Domain1"
 import Footer from "./components/Footer/Footer"
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-black">
       <Landing/>
       <About/>
       <Domain1 />

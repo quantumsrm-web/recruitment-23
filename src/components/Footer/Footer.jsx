@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div>
       {/* // large screen footer  */}
-      <div className="bg-black p-7 mt-1 text-white  justify-around mx-auto hidden md:flex">
+      <div className="bg-black p-7 mt-24 text-white  justify-around mx-auto hidden md:flex">
         <div>
           <img src={logo} alt="" className="w-52 animate-pulse" />
         </div>

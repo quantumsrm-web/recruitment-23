@@ -16,7 +16,7 @@ function Domain1() {
         <img
           src={Quantum}
           alt="quantum"
-          className="h-auto sm:h-auto md:h-[30rem]"
+          className="mx-auto sm:h-auto md:h-[30rem]"
         />
         <div>
           <div className="bold text-5xl pb-10">Quantum</div>

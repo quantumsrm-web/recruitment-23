@@ -16,9 +16,9 @@ const Landing = () => {
     //     </span>
     //   </div>
     // </div>
-    <div className="h-screen bg-black text-white p-10">
+    <div className="h-screen bg-black text-white p-10 mx-auto">
       <div className="flex flex-col">
-        <div className=" fixed flex items-center justify-between mx-auto">
+        <div className="flex items-center ">
           <img
             src={Logo}
             alt="SQCC Club Logo"

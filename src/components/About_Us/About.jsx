@@ -7,7 +7,7 @@ const About = () => {
         <div className="flex text-[#ffffff] font-bold text-5xl lg:text-6xl justify-center text-shadow mb-8">
           ABOUT
         </div>
-        <div className="max-w-[75%]  leading-7 mx-auto p-8 text-[#ffffff] text-center text-base md:text-xl tracking-tighter sm:tracking-tight md:tracking-normal">
+        <div className="min-w-[75%]  leading-7 mx-auto p-14 text-[#ffffff] text-center text-base md:text-xl tracking-tighter sm:tracking-tight md:tracking-normal shadow-[0_0_10px_1px_rgba(0,0,40)] backdrop-blur-lg ">
           The SRM Quantum Computing Club is a dynamic student organization at
           SRM University, united by a passion for quantum computing. Through
           engaging workshops and interactive sessions, we explore quantum

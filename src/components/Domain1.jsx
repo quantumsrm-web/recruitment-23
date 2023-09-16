@@ -8,7 +8,7 @@ import creatives from "../assets/Creatives.svg";
 function Domain1() {
   return (
     <div className=" text-white">
-      <div className="mx-auto h-auto font-bold flex text-3xl md:text-5xl items-center justify-center   pb-20 bold">
+      <div className="mx-auto h-screen font-bold flex text-3xl md:text-5xl items-center justify-center   pb-20 bold">
         DOMAINS
       </div>
       {/* core quantum */}
@@ -16,7 +16,7 @@ function Domain1() {
         <img src={Quantum} alt="quantum" className="mx-auto  sm:w-40 md:w-80" />
         <div>
           <div className=" text-3xl pb-10 md:text-5xl">Quantum</div>
-          <p>
+          <p className="shadow-[0_0_10px_1px_rgba(0,0,40)] backdrop-blur-lg p-6">
             At the heart of our club lies our quantum domain, where technical
             prowess meets intellectual curiosity. Here, we dive deep into the
             intricacies of quantum computing. Our discussion forums are not
@@ -36,7 +36,7 @@ function Domain1() {
         <img src={AIML} alt="quantum" className=" mx-auto md:w-80" />
         <div>
           <div className="bold text-3xl pb-10 md:text-5xl">AI-ML</div>
-          <p className="">
+          <p className="shadow-[0_0_10px_1px_rgba(0,0,40)] backdrop-blur-lg p-6">
             Within our club's AI and ML domain, we venture into the concepts of
             Quantum Machine Learning (QML), a frontier where quantum computing
             and machine learning intersect.Unlike classical computers, quantum
@@ -57,7 +57,7 @@ function Domain1() {
         <img src={webdev} alt="quantum" className="mx-auto md:w-80" />
         <div>
           <div className="bold text-3xl pb-10 md:text-5xl">Web Development</div>
-          <p>
+          <p className="shadow-[0_0_10px_1px_rgba(0,0,40)] backdrop-blur-lg p-6">
             Within our Web Development Domain, we're deeply engaged in the craft
             of shaping and enhancing our digital footprint. Here, our focus
             revolves around the art of designing, meticulously maintaining, and
@@ -79,7 +79,7 @@ function Domain1() {
         <img src={corporate} alt="corporate" className="mx-auto md:w-80" />
         <div>
           <div className="bold text-3xl pb-10 md:text-5xl">Corporate</div>
-          <p>
+          <p className="shadow-[0_0_10px_1px_rgba(0,0,40)] backdrop-blur-lg p-6">
             Within our Corporate Domain, we focus on securing vital funding and
             cultivating essential industry connections. This segment serves as a
             bridge between our club and corporate partners, sponsors, and
@@ -100,7 +100,7 @@ function Domain1() {
           <div className="bold text-3xl pb-10 md:text-5xl">
             Editorial/Creatives
           </div>
-          <p>
+          <p className="shadow-[0_0_10px_1px_rgba(0,0,40)] backdrop-blur-lg p-6">
             Our Editorial Domain, a dynamic space within our club that brings
             together a collective of creative minds and content creators. Here,
             we curate a diverse array of content across two distinct

@@ -18,6 +18,7 @@ const Landing = () => {
     // </div>
     <div className="h-screen bg-black text-white p-10 mx-auto">
       <div className="flex flex-col">
+      <div className="flex items-center justify-between">
         <div className="flex items-center ">
           <img
             src={Logo}
@@ -29,13 +30,19 @@ const Landing = () => {
           </h2>
         </div>
 
+        <a href="https://forms.gle/k2YQrn623WpfwiDN8">
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded sm:py-3 sm:px-6 md:py-4 md:px-8 lg:py-5 lg:px-10">
+          Apply Now
+        </button>
+        </a>
+      </div>
 
-        <div className="mt-60 mx-auto"> 
+
+        <div className="mt-60 mx-auto">
           <h1 className=" text-3xl md:text-4xl lg:text-5xl font-bold tracking-wider">RECRUITMENTS 2023</h1>
-          <p className="mt-16 w-2/3 ">Lorem ispum dolor sit amet, consecuter dispiscing elit, sed do eiusmod tempor indicutant ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ispum dolor sit amet, consecuter adispiscing elit, sed do eiusmod tempor indicutant ut labore et dolore 
-
-</p>
         </div>
+
+        
 
 
       </div>

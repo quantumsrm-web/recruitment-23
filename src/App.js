@@ -8,16 +8,10 @@ import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
-    <div className=" App">
-      <div className={`${style.bg1}`}>
-        {/* <img src={bg1} alt="" className="absolute   bg-cover" /> */}
-        <Landing />
-        <About />
-      </div>
-      <div className={`${style.bg2} -z-1 `}>
-        {/* <img src={bg2} alt="" className="absolute " /> */}
-        <Domain1 />
-      </div>
+    <div className={`${style.bg} App`}>
+      <Landing />
+      <About />
+      <Domain1 />
       <Footer />
     </div>
   )

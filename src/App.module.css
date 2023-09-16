@@ -1,14 +1,14 @@
-.bg1 {
-  background-image: url(./assets/bg1.png);
+.bg {
+  background-image: url(./assets/bg.svg);
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bg2 {
+/* .bg2 {
   background-image: url(./assets/bg2.png);
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+} */

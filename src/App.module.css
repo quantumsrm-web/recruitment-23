@@ -2,8 +2,9 @@
   background-image: url(./assets/bg.svg);
   position: relative;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: fit;
+  width: 100%;
 }
 /* .bg2 {
   background-image: url(./assets/bg2.png);

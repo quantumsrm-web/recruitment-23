@@ -30,7 +30,7 @@ function Domain1() {
         <img
           src={AIML}
           alt="quantum"
-          className="h-auto sm:h-auto max-w-lg sm:max-w-lg lg:max-w-xl  md:h-[30rem]"
+          className="h-auto sm:h-auto md:h-[30rem] lg:max-w-xl xl:max-w-2xl"
         />
         <div>
           <div className="bold text-5xl pb-10">AI-ML</div>
@@ -64,11 +64,11 @@ function Domain1() {
         </div>
       </div>
 
-      <div className=" text-center sm:text-center md:text-start flex flex-col sm:flex-col md:flex-row px-20 sm:px-20 md:px-32  gap-10 sm:gap-10 md:gap-52 justify-between items-center">
+      <div className="p-4 text-center sm:text-center md:text-start flex flex-col sm:flex-col md:flex-row px-20 sm:px-20 md:px-32  gap-10 sm:gap-10 md:gap-52 justify-between items-center">
         <img src={creatives} alt="creatives" className="w-[30rem]" />
-        <div>
+        <div className="p-4">
           <div className="bold text-5xl pb-10">Editorial/Creatives</div>
-          <p className="text-sm sm:text-base md:text-lg">
+          <p className="text-sm sm:text-base md:text-lg break-words">
           Our Editorial Domain, a dynamic space within our club that brings together a collective of creative minds and content creators. Here, we curate a diverse array of content across two distinct sub-domains, fostering an environment where imagination meets expression,
           In the 'Creative subdomain,' our talented members utilize a range of UI/UX tools to design visually stunning materials that promote our club's events, activities and projects, providing essential support to our Web Development Domain. From eye-catching web graphics to interactive user interfaces, we craft compelling visuals that captivate and engage our audience.
           Meanwhile, in the 'content' subdomain, we provide in-depth analyses, research reviews, and cutting-edge technical content that delves into the nuances of quantum computing for our presence in our social media platforms.Whether you're interested in design or technical content, our Editorial Domain provides opportunities for you to contribute to our creative and technical community.{" "}

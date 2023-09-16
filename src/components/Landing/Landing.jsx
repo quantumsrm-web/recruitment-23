@@ -1,6 +1,5 @@
 import React from "react";
 import Logo from "./Assests/Logo.png";
-import { directive } from "@babel/types";
 
 const Landing = () => {
   return (
@@ -25,8 +24,8 @@ const Landing = () => {
             alt="SQCC Club Logo"
             className="h-9 w-9 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-14 lg:w-14"
           />
-          <h2 className="ml-2  font-bold text-xl ">
-            SRM QUANTUM COMPUTING CLUB
+          <h2 className="ml-2  font-bold text-xl sm:hidden md:block">
+            SRM Quantum Computing Club
           </h2>
         </div>
 

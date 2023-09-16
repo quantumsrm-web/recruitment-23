@@ -1,20 +1,20 @@
-import React from "react"
-import { Link } from "react-scroll"
-import logo from "./Assets/Logo.png"
+import React from "react";
+import { Link } from "react-scroll";
+import logo from "./Assets/Logo.png";
 
 const Footer = () => {
   return (
     <div>
       {/* // large screen footer  */}
-      <div className="bg-black p-7 mt-24 text-white  justify-around mx-auto hidden md:flex">
+      <div className="bg-black  p-7  text-white  justify-around mx-auto hidden md:flex">
         <div>
-          <img src={logo} alt="" className="w-52 " />
+          <img src={logo} alt="" className="w-52 ani " />
           {/* animate-pulse */}
         </div>
 
         <div className="flex flex-col gap-36">
           <div className="mx-auto">
-            <Link to="home" smooth={true} duration={700}>
+            <Link to="landing" smooth={true} duration={500}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -178,7 +178,7 @@ const Footer = () => {
       <div className="flex md:hidden mt-1 flex-col bg-black text-white p-5">
         <div className="flex flex-col mx-auto items-center gap-5">
           <div>
-            <img src={logo} alt="" className="w-28 mt-6 animate-spin-slow " />
+            <img src={logo} alt="" className="w-28 mt-6  " />
           </div>
           <div></div>
 
@@ -323,7 +323,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

@@ -4,7 +4,7 @@ import { directive } from "@babel/types";
 
 const Landing = () => {
   return (
-    <div className="h-screen bg-black text-white p-10 mx-auto">
+    <div className="h-screen  text-white p-10 mx-auto" name="landing">
       <div className="flex flex-col">
         <div className="flex justify-between ">
           <div className="flex items-center">
@@ -21,7 +21,9 @@ const Landing = () => {
               </h2>
             </span>
           </div>
-          <div className=" bg-blue-500 hover:bg-blue-400 text-white font-bold py-3 px-8 cursor-pointer items-center border-b-4 border-blue-700 hover:border-blue-500 rounded"><a href="https://forms.gle/k2YQrn623WpfwiDN8">Apply</a></div>
+          <div className=" bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-3 md:py-3 md:px-8 cursor-pointer items-center border-b-4 border-blue-700 hover:border-blue-500 rounded ">
+            <a href="https://forms.gle/k2YQrn623WpfwiDN8">Apply</a>
+          </div>
         </div>
 
         <div className="mt-60 mx-auto">

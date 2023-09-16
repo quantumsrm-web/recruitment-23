@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div>
       {/* // large screen footer  */}
-      <div className="bg-black  p-7  text-white  justify-around mx-auto hidden md:flex">
+      <div className="bg-[#0c121d]  p-7  text-white  justify-around mx-auto hidden md:flex">
         <div>
           <img src={logo} alt="" className="w-52 ani " />
           {/* animate-pulse */}
@@ -175,7 +175,7 @@ const Footer = () => {
 
       {/*  mobile footer  */}
 
-      <div className="flex md:hidden mt-1 flex-col bg-black text-white p-5">
+      <div className="flex md:hidden mt-1 flex-col bg-[#0c121d] text-white p-5">
         <div className="flex flex-col mx-auto items-center gap-5">
           <div>
             <img src={logo} alt="" className="w-28 mt-6  " />

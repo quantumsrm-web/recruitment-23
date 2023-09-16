@@ -66,7 +66,7 @@ function Domain1() {
         </div>
 
         {/* Corporate */}
-        <div className=" text-center md:text-start flex flex-col sm:flex-col md:flex-row-reverse w-[90vw] sm:w-[80vw] md:w-[70vw] gap-20 my-20 items-center mb-20 shadow-[0_0_10px_1px_rgba(0,0,0)] backdrop-blur-xl rounded-xl p-4 md:py-10">
+        <div className=" text-center md:text-start flex flex-col sm:flex-col md:flex-row w-[90vw] sm:w-[80vw] md:w-[70vw] gap-20 my-20 items-center mb-20 shadow-[0_0_10px_1px_rgba(0,0,0)] backdrop-blur-xl rounded-xl p-4 md:py-10">
           <img src={corporate} alt="quantum" className="sm:w-40 md:w-80" />
           <div>
             <div className="text-3xl p-2 pb-10 md:text-5xl">Corporate</div>

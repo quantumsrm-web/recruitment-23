@@ -30,7 +30,7 @@ function Domain1() {
         <img
           src={AIML}
           alt="quantum"
-          className="h-auto  max-w-full sm:max-w-lg lg:max-w-xl  md:h-[30rem]"
+          className="h-auto sm:h-auto max-w-lg sm:max-w-lg lg:max-w-xl  md:h-[30rem]"
         />
         <div>
           <div className="bold text-5xl pb-10">AI-ML</div>
@@ -40,7 +40,7 @@ function Domain1() {
         </div>
       </div>
       {/* Web Development */}
-      <div className=" text-center sm:text-center md:text-start flex flex-col sm:flex-col md:flex-row px-20 sm:px-20 md:px-32  gap-10 sm:gap-10 md:gap-52 justify-between items-center">
+      <div className=" text-center sm:text-center md:text-start flex flex-col sm:flex-col md:flex-row px-20 sm:px-20 md:px-32  gap-10 sm:gap-10 md:gap-52 justify-between items-center pb-20">
         <img src={webdev} alt="quantum" className="w-[30rem]" />
         <div>
           <div className="bold text-5xl pb-10">Web Dev</div>

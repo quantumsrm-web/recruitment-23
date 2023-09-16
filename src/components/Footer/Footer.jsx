@@ -8,7 +8,8 @@ const Footer = () => {
       {/* // large screen footer  */}
       <div className="bg-black p-7 mt-24 text-white  justify-around mx-auto hidden md:flex">
         <div>
-          <img src={logo} alt="" className="w-52 animate-pulse" />
+          <img src={logo} alt="" className="w-52 " />
+          {/* animate-pulse */}
         </div>
 
         <div className="flex flex-col gap-36">

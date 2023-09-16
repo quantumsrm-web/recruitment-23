@@ -4,7 +4,7 @@ import Logo from "./Assests/Logo.png";
 const Landing = () => {
   return (
     <div className="text-white mx-auto" name="landing">
-      <div className="flex justify-between absolute top-0 left-auto right-auto w-screen p-6">
+      <div className="flex justify-between absolute top-0 left-auto right-auto w-screen p-10">
         <div className="flex items-center">
           <span>
             <img
@@ -25,11 +25,12 @@ const Landing = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div className=" bg-blue-500 hover:bg-blue-400 text-white font-bold px-4 py-1 items-center flex md:py-1 md:px-8 cursor-pointer border-b-4 border-blue-700 hover:border-blue-500 rounded-lg ">
+          <div className=" bg-blue-500 hover:bg-blue-400 text-white font-bold px-4 py-1 items-center flex md:py-1 md:px-8 cursor-pointer border-b-4 border-blue-700 hover:border-blue-500 rounded-lg h-auto w-full">
             Apply
           </div>
         </a>
       </div>
+
       <div className="flex flex-col justify-center items-center h-screen w-screen">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-wider text-center">
           RECRUITMENTS 2023

@@ -33,7 +33,7 @@ const Landing = () => {
       </div>
 
       <div className="flex flex-col justify-center items-center h-screen w-screen">
-        <h1 className="text-[48px] md:text-4xl lg:text-[85px] font-bold  text-center">
+        <h1 className="text-[38px] sm:text-[52px] md:text-[64px] lg:text-[85px] font-bold  text-center">
           RECRUITMENTS 2023
         </h1>
 

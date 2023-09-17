@@ -8,7 +8,7 @@ import webdev from "../assets/Web Dev.svg";
 function Domain1() {
   return (
     <div className=" text-white">
-      <div className="mx-auto font-bold flex text-3xl md:text-5xl items-center justify-center pb-20 bold">
+      <div className="mx-auto font-bold flex text-[36px] md:text-[48px] items-center justify-center pb-20 bold">
         DOMAINS
       </div>
       <div className="flex flex-col w-screen h-auto items-center justify-center">
@@ -16,7 +16,7 @@ function Domain1() {
         <div className=" text-center md:text-start flex flex-col sm:flex-col md:flex-row w-[90vw] sm:w-[80vw] md:w-[70vw] gap-20 my-20 items-center mb-20 shadow-[0_0_10px_1px_rgba(0,0,0)] backdrop-blur-xl rounded-xl p-4">
           <img src={Quantum} alt="quantum" className="sm:w-40 md:w-80" />
           <div>
-            <div className="text-3xl p-2 pb-10 md:text-5xl">Quantum</div>
+            <div className="text-3xl p-2 pb-10 md:text-[36px]">QUANTUM</div>
             <p>
               Our club is a quantum hub where technical expertise meets
               curiosity. We explore quantum computing intricacies, dissect
@@ -32,7 +32,7 @@ function Domain1() {
         <div className=" text-center md:text-start flex flex-col sm:flex-col md:flex-row-reverse w-[90vw] sm:w-[80vw] md:w-[70vw] gap-20 my-20 items-center mb-20 shadow-[0_0_10px_1px_rgba(0,0,0)] backdrop-blur-xl rounded-xl p-4 md:py-10">
           <img src={AIML} alt="quantum" className="sm:w-40 md:w-80" />
           <div>
-            <div className="text-3xl p-2 pb-10 md:text-5xl">AI/ML</div>
+            <div className="text-3xl p-2 pb-10 md:text-[36px]">AI/ML</div>
             <p>
               In our AI-ML domain, we explore Quantum Machine Learning (QML),
               where quantum computing intersects with machine learning. Quantum
@@ -51,8 +51,8 @@ function Domain1() {
         <div className=" text-center md:text-start flex flex-col sm:flex-col md:flex-row w-[90vw] sm:w-[80vw] md:w-[70vw] gap-20 my-20 items-center mb-20 shadow-[0_0_10px_1px_rgba(0,0,0)] backdrop-blur-xl rounded-xl p-4">
           <img src={webdev} alt="quantum" className="sm:w-40 md:w-80" />
           <div>
-            <div className="text-3xl p-2 pb-10 md:text-5xl">
-              Web Development
+            <div className="text-3xl p-2 pb-10 md:text-[36px]">
+              WEB DEVELOPMENT
             </div>
             <p>
               In our Web Development Domain, we focus on shaping our digital
@@ -69,7 +69,7 @@ function Domain1() {
         <div className=" text-center md:text-start flex flex-col sm:flex-col md:flex-row-reverse w-[90vw] sm:w-[80vw] md:w-[70vw] gap-20 my-20 items-center mb-20 shadow-[0_0_10px_1px_rgba(0,0,0)] backdrop-blur-xl rounded-xl p-4 md:py-10">
           <img src={corporate} alt="quantum" className="sm:w-40 md:w-80" />
           <div>
-            <div className="text-3xl p-2 pb-10 md:text-5xl">Corporate</div>
+            <div className="text-3xl p-2 pb-10 md:text-[36px]">CORPORATE</div>
             <p>
               In our Corporate Domain, we secure funding and industry
               connections, bridging our club with partners, sponsors, and
@@ -85,7 +85,7 @@ function Domain1() {
         <div className=" text-center md:text-start flex flex-col sm:flex-col md:flex-row w-[90vw] sm:w-[80vw] md:w-[70vw] gap-20 my-20 items-center mb-20 shadow-[0_0_10px_1px_rgba(0,0,0)] backdrop-blur-xl rounded-xl p-4">
           <img src={creatives} alt="quantum" className="sm:w-40 md:w-80" />
           <div>
-            <div className="text-3xl p-2 pb-10 md:text-5xl">Editorial</div>
+            <div className="text-3xl p-2 pb-10 md:text-[36px]">EDITORIAL</div>
             <p>
               Our Editorial Domain is a creative hub where members curate
               diverse content in two sub-domains. In the 'Creative subdomain,'

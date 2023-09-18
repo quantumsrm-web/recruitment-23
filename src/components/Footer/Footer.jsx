@@ -159,14 +159,14 @@ const Footer = () => {
               <li className="my-2 ml-2 hover:cursor-pointer hover:scale-105 duration-150">
                 <a href="mailto:srmqcc@gmail.com">srmqcc@gmail.com</a>
               </li>
-              <li className="my-2 ml-2 hover:cursor-pointer hover:scale-105 duration-150">
+              {/* <li className="my-2 ml-2 hover:cursor-pointer hover:scale-105 duration-150">
                 <a href="mailto:gargveerastitva@gmail.com">
                   gargveerastitva@gmail.com
                 </a>
               </li>
               <li className="my-2 ml-2 hover:cursor-pointer hover:scale-105 duration-150">
                 <a href="tel:+916397691188">+916397691188</a>
-              </li>
+              </li> */}
               {/* <li className="my-2 ml-2">Number2</li> */}
             </ul>
           </div>
